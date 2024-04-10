@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+.logotipo{
+    background-color: brown;
+}
+nav{
+    background-color: green;
+}
+main{
+    background-color: aqua;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: purple;
+    padding: 3%;
+}
+.Rodapé{
+    background-color: yellow;
+    padding: 2%;
+}
