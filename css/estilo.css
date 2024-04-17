@@ -8,7 +8,6 @@ nav{
     background-color: green;
 }
 main{
-    background-color: aqua;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -25,11 +24,23 @@ header{
 .títulos{
     line-height: 3;  
     text-align: center;
-    font-weight: bold 
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 h1{
     font-size: 2em;
 }
 h2{
     font-size: 1.5em;
+}
+p{
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section{
+background-color: aqua;
+padding: 10px;
 }
