@@ -1,12 +1,10 @@
 body{
-    background-color: gray;
     
 }
 .logotipo{
-    background-color: brown;
+    width: 30%;
 }
 nav{
-    background-color: green;
 }
 main{
     width: 80%;
@@ -15,12 +13,12 @@ main{
 }
 
 header{
-    background-color: purple;
     padding: 3%;
+    background-color: #E61A1A;
 }
 .Rodapé{
-    background-color: yellow;
     padding: 2%;
+    background-color: #E61A1A;
 }
 .títulos{
     line-height: 3;  
@@ -42,6 +40,8 @@ p{
   font-style: normal;
 }
 section{
-background-color: aqua;
 padding: 10px;
+}
+li{
+    list-style: disc;
 }
