@@ -1,47 +1,198 @@
-body{
-    
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #ffcc00;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
-.logotipo{
+footer p {
+    margin: 0;
+    color: #ffcc00;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/starry-night.png');
+    color: #c5c6c7;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #ffcc00;
+    font-family: 'Orbitron', sans-serif;
+}
+nav {
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #ffcc00;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.trilogy {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.trilogy .film {
     width: 30%;
+    background-color: #1f2833;
+    padding: 20px;
+    border-radius: 10px;
 }
-nav{
+.trilogy .film img {
+    width: 100%;
+    border-radius: 10px;
 }
-main{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.trilogy .film h3 {
+    color: #ffcc00;
+    text-align: center;
+}
+.characters-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    color: #000;
+}
+.characters-table th, .characters-table td {
+    border: 1px solid #ffcc00;
+    padding: 10px;
+    text-align: left;
+}
+.characters-table th {
+    background-color: #1f2833;
+    color: #ffcc00;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+}
+.curiosities {
+    margin-bottom: 40px;
+}
+.curiosities ul {
+    list-style-type: none;
+    padding: 0;
+}
+.curiosities li {
+    background-color: #1f2833;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.personagem {
+    margin-bottom: 40px;
+}
+.personagem img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.personagem h2 {
+    color: #ffcc00;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+.personagem p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #000;
+}
+.personagem .curiosities ul {
+    list-style-type: none;
+    padding: 0;
+}
+.personagem .curiosities li {
+    background-color: #1f2833;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #ffcc00;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
 }
 
-header{
-    padding: 3%;
-    background-color: #E61A1A;
+.movie {
+    margin-bottom: 40px;
 }
-.Rodapé{
-    padding: 2%;
-    background-color: #E61A1A;
+
+.movie img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.títulos{
-    line-height: 3;  
-    text-align: center;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-h1{
-    font-size: 2em;
-}
-h2{
+
+.movie h2 {
+    color: #ffcc00;
     font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
 }
-p{
-    font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+.movie p {
+    font-size: 1.2em;
+    line-height: 1.6;
 }
-section{
-padding: 10px;
-}
-li{
-    list-style: disc;
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #ffcc00;
 }
