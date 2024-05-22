@@ -46,7 +46,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-.container {
+.secao {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -61,7 +61,7 @@ nav a:hover {
     font-size: 1.2em;
     line-height: 1.6;
 }
-.section-title {
+.titulo-secao {
     text-align: center;
     font-size: 2em;
     color: #ffcc00;
@@ -69,60 +69,59 @@ nav a:hover {
     margin-bottom: 20px;
     font-family: 'Orbitron', sans-serif;
 }
-.trilogy {
+.trilogia {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
 }
-.trilogy .film {
+.trilogia .filme {
     width: 30%;
     background-color: #1f2833;
     padding: 20px;
     border-radius: 10px;
 }
-.trilogy .film img {
+.trilogia .filme img {
     width: 100%;
     border-radius: 10px;
 }
-.trilogy .film h3 {
+.trilogia .filme h3 {
     color: #ffcc00;
     text-align: center;
 }
-.characters-table {
+.tabela-personagens {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 40px;
     color: #000;
 }
-.characters-table th, .characters-table td {
+.tabela-personagens th, .tabela-personagens td {
     border: 1px solid #ffcc00;
     padding: 10px;
     text-align: left;
 }
-.characters-table th {
+.tabela-personagens th {
     background-color: #1f2833;
     color: #ffcc00;
 }
-.gallery {
+.galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 40px;
 }
-.gallery img {
+.galeria img {
     width: 30%;
     margin-bottom: 20px;
     border: 3px solid #ffcc00;
     border-radius: 10px;
 }
-.curiosities {
+.curiosidades {
     margin-bottom: 40px;
 }
-.curiosities ul {
-    list-style-type: none;
+.curiosidades ul {
     padding: 0;
 }
-.curiosities li {
+.curiosidades li {
     background-color: #1f2833;
     margin-bottom: 10px;
     padding: 10px;
@@ -147,17 +146,17 @@ nav a:hover {
     line-height: 1.6;
     color: #000;
 }
-.personagem .curiosities ul {
+.personagem .curiosidades ul {
     list-style-type: none;
     padding: 0;
 }
-.personagem .curiosities li {
+.personagem .curiosidades li {
     background-color: #1f2833;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
 }
-.section-title {
+.titulo-secao {
     text-align: center;
     font-size: 2em;
     color: #ffcc00;
@@ -186,13 +185,5 @@ nav a:hover {
 .movie p {
     font-size: 1.2em;
     line-height: 1.6;
-}
-.footer-fixed {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #000;
-    text-align: center;
-    padding: 15px 0;
-    border-top: 2px solid #ffcc00;
+    color: black;
 }
