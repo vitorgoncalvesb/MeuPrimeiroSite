@@ -187,3 +187,61 @@ nav a:hover {
     line-height: 1.6;
     color: black;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .titulo-secao {
+        font-size: 1.5em;
+    }
+
+    .filme h2 {
+        font-size: 1.2em;
+    }
+
+    .filme p {
+        font-size: 1em;
+    }
+
+    .filme img {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .titulo-secao {
+        font-size: 1.2em;
+    }
+
+    .filme h2 {
+        font-size: 1em;
+    }
+
+    .filme p {
+        font-size: 0.9em;
+    }
+}
