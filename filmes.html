@@ -18,14 +18,21 @@
     <nav>
         <a href="index.html">Início</a>
         <a href="characters.html">Personagens</a>
-        <a href="filmes.html">Filmes e Séries</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Filmes e Séries</a>
+            <div class="dropdown-content">
+                <a href="#original">Original</a>
+                <a href="#prequela">Prequela</a>
+                <a href="#Sequela">Sequela</a>
+            </div>
+        </div>
         <a href="naves.html">Naves e Veículos</a>
         <a href="cultura.html">Cultura</a>
     </nav>
     <div class="secao">
         <div class="titulo-secao">Filmes</div>
 
-        <div class="titulo-secao">Trilogia Original</div>
+        <div id="original" class="titulo-secao">Trilogia Original</div>
 
         <div class="movie">
             <img src="img/Star wars episode IV.png" alt="Star Wars: Episódio IV - Uma Nova Esperança">
@@ -45,7 +52,7 @@
             <p>No capítulo final da trilogia original, Luke Skywalker e seus amigos se preparam para enfrentar o Império de uma vez por todas. Enquanto isso, Darth Vader enfrenta uma luta interna entre o lado sombrio e o lado luminoso da Força.</p>
         </div>
 
-        <div class="titulo-secao">Trilogia Prequela</div>
+        <div id="prequela" class="titulo-secao">Trilogia Prequela</div>
 
         <div class="movie">
             <img src="img/Episode I.jpg" alt="Star Wars: Episódio I - A Ameaça Fantasma">
@@ -65,7 +72,7 @@
             <p>No emocionante capítulo final da trilogia prequela, a República Galáctica está em guerra e o Chanceler Palpatine revela sua verdadeira identidade como Darth Sidious. Anakin Skywalker é tentado pelo lado sombrio da Força, e a tragédia se abate sobre a galáxia.</p>
         </div>
 
-        <div class="titulo-secao">Trilogia Sequela</div>
+        <div id="Sequela" class="titulo-secao">Trilogia Sequela</div>
 
         <div class="movie">
             <img src="img/star wars episode VII.jpg" alt="Star Wars: Episódio VII - O Despertar da Força">
