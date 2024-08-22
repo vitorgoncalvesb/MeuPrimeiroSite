@@ -237,7 +237,7 @@ nav a:hover, .dropdown .dropbtn:hover {
     color: black;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 957px) {
     header {
         flex-direction: column;
     }
@@ -253,6 +253,7 @@ nav a:hover, .dropdown .dropbtn:hover {
 
     nav {
         flex-direction: column;
+        position: relative;
     }
 
     nav a {
@@ -289,6 +290,113 @@ nav a:hover, .dropdown .dropbtn:hover {
 
     .movie p {
         font-size: 0.9em;
+    }
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group, .radio-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label, .radio-group label {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .section-title {
+        font-size: 1.2em;
+    }
+
+    input[type="submit"] {
+        padding: 8px 12px;
+        font-size: 0.8em;
     }
 }
 
