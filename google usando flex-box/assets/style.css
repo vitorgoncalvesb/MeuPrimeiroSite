@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: white;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+
+.header{
+ background-color: rgb(255, 255, 255);   
+ height: 60px;
+ font-size: 18px;
+
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ padding-right: 20px;
+}
+
+.header a:hover { 
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.pesquisa{
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    margin: 10px;
+    padding: 4px;
+}
+.pesquisa {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+.btn{
+    background-color: #1a73e8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btncinza{
+    padding: 8px 20px 8px 20fpx;
+    background: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #4b4e51;
+}
+
+.btn:hover{
+    background-color:#1a73e8c4 ;
+}
+ion-icon {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s;
+}
+ion-icon:hoover {
+    background-color:#dcdcdc ;
+    border-radius: 20px;
+}
+.main{
+ background-color: rgb(255, 255, 255);
+ flex-grow: 1;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer{
+    color: #687682;
+    background-color: #f2f2f2;
+    height: 60px;
+    border-bottom: 1px solid #DDDfE3;
+    font-size: 18px;
+    padding-left: 18px;
+
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 300px;
+}
